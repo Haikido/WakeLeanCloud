@@ -1,6 +1,7 @@
 import requests
 import sys
 import time
+import telepot
 token=str(sys.argv[2])
 chat_id=str(sys.argv[3])
 bot=telepot.Bot(token)
