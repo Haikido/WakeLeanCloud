@@ -5,7 +5,8 @@ import telepot
 token=str(sys.argv[2])
 chat_id=str(sys.argv[3])
 bot=telepot.Bot(token)
-
+print(bot.getMe())
+print(token,chat_id)
 def send(message):
     bot.sendMessage(chat_id,message, parse_mode=None, disable_web_page_preview=None, disable_notification=None, reply_to_message_id=None, reply_markup=None)
 
