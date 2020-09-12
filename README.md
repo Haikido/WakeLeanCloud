@@ -1,3 +1,6 @@
+# 置顶+1
+* 本项目经过[@GamerNoTitle](https://github.com/GamerNoTitle)修改，加入了Telegram Bot推送功能，请在secret加入TELEBOT_TOKEN填写你的bot token和CHAT_ID填写你的用户ID（可以发消息到@userinfobot获取）
+
 ## 这是干嘛的？
 
 这个项目主要是用来解决LeanCloud通过定时任务唤醒机器时被流控的问题。
